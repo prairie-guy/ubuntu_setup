@@ -1,5 +1,5 @@
-setup.git
-=========
+ubuntu_setup.git
+===============
 Clone and run this on a new node using Ubuntu 14.04 to
 configure both the machine and your individual development environment as
 follows:
