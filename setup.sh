@@ -45,3 +45,7 @@ ln -sb .dotfiles/.bash_profile .
 ln -sb .dotfiles/.bashrc .
 ln -sb .dotfiles/.bashrc_custom .
 ln -sf .dotfiles/.emacs.d .
+
+# Provide bash completion for git
+wget -O .git-completion.bash.sh https://github.com/git/git/raw/master/contrib/completion/git-completion.bash
+echo 'source ~/.git-completion.bash.sh' >> .bashrc_custom
